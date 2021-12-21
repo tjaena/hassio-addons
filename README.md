@@ -12,4 +12,4 @@ https://github.com/tjaena/hassio-addons/
 
 ## Provided add-ons
 
-- [hassio-cloudflareipupdater](https://github.com/davidrasmosweb/hassio-cloudflareipupdater) Dynamic IP Updater for Cloudflare in hass.io
+- [hassio-cloudflareipupdater](https://github.com/tjaena/hassio-addons) Dynamic IP Updater for Cloudflare in hass.io
