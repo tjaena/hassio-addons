@@ -123,7 +123,7 @@ read -r -d '' new_dns_record <<EOF
     "content": "$ip",
     "ttl": $TTL,
     "priority": 10,
-    "proxied": "false"
+    "proxied": false
 }
 EOF
 
