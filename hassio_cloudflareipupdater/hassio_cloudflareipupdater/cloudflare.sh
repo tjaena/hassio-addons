@@ -48,6 +48,9 @@ fi
 # Determines the current IP address
 new_ip=$($ip_curl https://api64.ipfy.org)
 
+new_ipv6=$($ip_curl https://api6.ipfy.org)
+echo "new_ipv6: $new_ipv6"
+
 # IP address service fallbacks
 if [[ -z $new_ip ]]; then
     new_ip=$($ip_curl http://whatismyip.akamai.com)
